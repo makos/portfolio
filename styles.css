@@ -1,0 +1,139 @@
+body {
+  padding-top: 0px;
+  padding-bottom: 25px;
+  background-color: #222222;
+  background-image: url("img/bg.jpg");
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  font-size: 1.5em;
+  height: 100%;
+}
+
+.invis-anchor {
+  margin-bottom: 5px;
+}
+
+p,
+.monospace {
+  font-family: 'Anonymous Pro', 'Courier New', Monospace;
+}
+
+.navbar-header {
+  font-size: 1.5em;
+}
+
+.navbar,
+.navbar-fixed-top {
+  text-shadow: 1px 1px black;
+  box-shadow: 0px 2px 2px black;
+  margin-bottom: 50px;
+}
+
+.inside {
+  /* Actual body of the site positioning */
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.quote {
+  color: #999999;
+  font-size: 1.2em;
+  font-style: italic;
+  font-family: "Verdana", Sans;
+  text-align: center;
+  margin-top: -2.5%;
+}
+
+h1,
+h2 {
+  font-size: 5em;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: #cccccc;
+  text-shadow: 2px 2px 1px black;
+  font-family: "Verdana", Sans;
+}
+
+h2 {
+  font-size: 3em;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.btn-dark {
+  background-color: #333333;
+  border-color: #222222;
+  color: white;
+  text-shadow: 1px 1px black;
+  transition: all 0.5s linear 0s;
+  box-shadow: 2px 2px 1px black;
+}
+
+hr,
+.section-sep {
+  box-shadow: 2px 2px 1px black;
+}
+
+.section-sep {
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.container-fluid {
+  position: relative;
+  min-height: 98%;
+}
+
+.img-rounded {
+  box-shadow: 2px 2px 2px black;
+}
+
+.start-section {
+  margin-top: 50%;
+}
+
+.footer-bg {
+  position: absolute;
+  bottom: -5%;
+  left: 0px;
+  padding: 0px 0px 0px 0px;
+  margin: 20% 0px 0px 0px;
+  width: 100%;
+  height: 25px;
+  background-color: #111;
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* <IE8 */
+}
+
+.footer-bg footer {
+  font-size: 0.9em;
+  color: white;
+}
+
+.footer-bg a {
+  font-size: 0.9em;
+  color: #007fff;
+}
+
+.btn-group-vertical {
+  float: none;
+}
+
+a.btn {
+  float: none;
+}
+
+.hovering {
+  background-color: #CCCCCC;
+  color: #333333;
+  transition: all 0.5s linear 0s;
+}
+
+#menu1:hover,
+#menu2:hover,
+#menu3:hover,
+#menu4:hover {
+  background-color: #ccc;
+  color: #333;
+  transition: all 0.5s linear 0s;
+}
