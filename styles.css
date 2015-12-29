@@ -123,12 +123,6 @@ a.btn {
   float: none;
 }
 
-.hovering {
-  background-color: #CCCCCC;
-  color: #333333;
-  transition: all 0.5s linear 0s;
-}
-
 #menu1:hover,
 #menu2:hover,
 #menu3:hover,
